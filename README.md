@@ -1,3 +1,3 @@
-Connecting MongoDB with express JS
+- Connecting MongoDB with express JS
 
-Creating middleware, export function, routing backend server
+- Creating middleware, export function, routing backend server
