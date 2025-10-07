@@ -1,0 +1,17 @@
+// app.js
+const d = require('lodash');
+
+// contoh array
+const numbers = [1, 2, 3, 4, 5, 6];
+
+// ambil 3 angka pertama
+console.log('Take:', d.take(numbers, 3));  
+
+// shuffle array
+console.log('Shuffle:', d.shuffle(numbers));  
+
+// cek apakah kosong
+console.log('Is empty?', d.isEmpty([]));  
+
+// ubah jadi uniq (hapus duplikat)
+console.log('Unique:', d.uniq([1, 2, 2, 3, 4, 4, 5]));

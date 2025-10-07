@@ -1,0 +1,19 @@
+{
+  "name": "learn_nodejs",
+  "version": "1.0.0",
+  "main": "app.js",
+  "start":"node appcuci.js",
+  "scripts": {
+  "start": "node appcuci.js",
+  "dev": "nodemon app.js"
+}
+
+  ,
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0",
+    "lodash": "^4.17.21"
+  }
+}
